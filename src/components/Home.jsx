@@ -144,14 +144,14 @@ const Home = () => {
             <p>
               Over{" "}
               <span className="text-4xl md:text-5xl font-semibold text-[#1a3967]">
-                500
+                5000
               </span>{" "}
               partner pharmacies across the country
             </p>
           </div>
           <div className="flex col-span-1 lg:col-span-2 justify-center items-center text-center">
             <h2 className="text-4xl md:text-5xl font-semibold text-[#1a3967]">
-              74%
+              97%
             </h2>
             <p className="ml-2"> of customers say they would recommend us</p>
           </div>
