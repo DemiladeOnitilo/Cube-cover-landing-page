@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscriptions = () => {
   return (
-    <div className="px-10 lg:px-0 max-w-5xl mx-auto">
+    <div className="px-10 max-w-5xl mx-auto">
       {/*MTN & GLO Subscription*/}
       <div className=" text-[#1A3967]">
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-semibold mt-10 text-center px-6 underline underline-offset-5">
@@ -15,15 +15,16 @@ const Subscriptions = () => {
           <ol className="flex flex-col gap-6 sm:gap-8 text-base sm:text-lg md:text-xl lg:text-2xl max-w-5xl px-6 list-decimal list-inside">
             <li>Dial *3013#</li>
             <li>Choose your preferred service</li>
-            <li>Choose your preferred subscription plan (i.e. autorenewal/ one-off)</li>
+            <li>
+              Choose your preferred subscription plan (i.e. autorenewal/
+              one-off)
+            </li>
             <li>Receive confirmation billing message from network</li>
             <li>
               Receive confirmation message from shortcode with url to access the
               service (
-              <span className="underline hover:text-blue-700 ease-in-out duration-300 cursor-pointer">
-                <a href="https://shorturl.at/mxES1">
+              <span className="underline">
                   https://shorturl.at/mxES1
-                </a>
               </span>
               )
             </li>
@@ -48,15 +49,16 @@ const Subscriptions = () => {
           <ol className="flex flex-col gap-6 sm:gap-8 text-base sm:text-lg md:text-xl lg:text-2xl max-w-5xl px-6 list-decimal list-inside">
             <li>Dial *312*44#</li>
             <li>Choose your preferred bundle</li>
-            <li>Choose your preferred subscription plan (i.e. autorenewal/ one-off)</li>
+            <li>
+              Choose your preferred subscription plan (i.e. autorenewal/
+              one-off)
+            </li>
             <li>Receive confirmation billing message from network</li>
             <li>
               Receive confirmation message from shortcode with url to access the
               service (
-              <span className="underline hover:text-blue-700 ease-in-out duration-300 cursor-pointer">
-                <a href="https://shorturl.at/mxES1">
-                  https://shorturl.at/mxES1
-                </a>
+              <span className="underline">
+                https://shorturl.at/mxES1
               </span>
               )
             </li>
@@ -113,7 +115,6 @@ const Subscriptions = () => {
           </span>
         </div>
       </div>
-
     </div>
   );
 };

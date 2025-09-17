@@ -10,7 +10,6 @@ import {
   MdPhonelink,
   MdPsychology,
 } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   const cardInfo = [
@@ -96,10 +95,10 @@ const Home = () => {
       {/*Hero Card Section*/}
       <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8 px-6 mt-20">
         {cardInfo.map((items, index) => (
-          <Link
+          <div
             to={items.to ? items.to : null}
             key={index}
-            className="border-1 border-blue-100 rounded-xl p-8 w-full hover:scale-[1.03] hover:shadow-xl hover:border-blue-200 ease-in-out duration-300 cursor-pointer"
+            className="border-1 border-blue-100 rounded-xl p-8 w-full"
           >
             <div className="flex gap-2 items-center mb-4 ">
               <span className="text-blue-600">{items.img}</span>
@@ -111,7 +110,7 @@ const Home = () => {
               <p>{items.descriptionOne}</p>
               <p>{items.descriptionTwo}</p>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
 
@@ -175,7 +174,7 @@ const Home = () => {
           {ourProducts.map((items, index) => (
             <div
               key={index}
-              className="flex flex-col lg:flex-row gap-4 items-center text-center bg-white py-20 px-10 rounded-xl hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 cursor-pointer"
+              className="flex flex-col lg:flex-row gap-4 items-center text-center bg-white py-20 px-10 rounded-xl"
             >
               <span className="text-blue-600">{items.img}</span>
               <h3 className="text-[#1A3967] text-3xl font-semibold">
@@ -186,20 +185,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/*Redirect Section*/}
-      <div className="flex flex-col md:flex-row justify-between items-center px-6 py-10 my-20 gap-8 md:gap-12 bg-gradient-to-r from-[#094486] to-[#4682D4] text-white rounded-xl">
-        <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center md:text-left">
-          Smarter insurance for a digital world.
-          <br />
-          Get Free Insurance Today!
-        </h3>
-        <Link
-          to="/subscriptions"
-          className="text-black text-base md:text-lg text-center font-semibold bg-blue-400 ring-2 md:ring-3 ring-white hover:text-white hover:bg-blue-600 hover:scale-[1.03] ease-in-out duration-300 px-6 py-4 md:mr-10 rounded-xl cursor-pointer whitespace-nowrap"
-        >
-          Get Insured Now
-        </Link>
-      </div>
     </div>
   );
 };
