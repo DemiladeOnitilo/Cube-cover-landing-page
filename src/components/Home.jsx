@@ -144,7 +144,7 @@ const Home = () => {
             <p>
               Over{" "}
               <span className="text-4xl md:text-5xl font-semibold text-[#1a3967]">
-                5000
+                3000
               </span>{" "}
               partner pharmacies across the country
             </p>
