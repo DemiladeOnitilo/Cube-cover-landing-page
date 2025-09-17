@@ -158,6 +158,21 @@ const Home = () => {
         </div>
       </div>
 
+      {/*Redirect Section*/}
+      <div className="flex flex-col md:flex-row justify-between items-center px-6 py-10 my-20 gap-8 md:gap-12 bg-gradient-to-r from-[#094486] to-[#4682D4] text-white rounded-xl">
+        <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center md:text-left">
+          Smarter insurance for a digital world.
+          <br />
+          Get Free Insurance Today!
+        </h3>
+        <a
+          href=""
+          className="text-black text-base md:text-lg text-center font-semibold bg-blue-400 ring-2 md:ring-3 ring-white hover:text-white hover:bg-blue-600 hover:scale-[1.03] ease-in-out duration-300 px-6 py-4 md:mr-10 rounded-xl cursor-pointer whitespace-nowrap"
+        >
+          Get Insured Now
+        </a>
+      </div>
+
       {/*Divider*/}
       <div>
         <div className="w-3/4 h-0.5 bg-gradient-to-r from-transparent via-[#084181D1] to-transparent shadow-[0_0_15px_rgba(96,165,250,0.8)] my-16 mx-auto" />
@@ -184,7 +199,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };

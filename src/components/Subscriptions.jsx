@@ -29,9 +29,9 @@ const Subscriptions = () => {
               )
             </li>
           </ol>
-          <span className="flex justify-center border-2 border-[#1A3967] text-base sm:text-xl md:text-2xl my-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
+          <a href="" className="flex justify-center border-2 border-[#1A3967] hover:text-white hover:bg-gray-500 duration-500 cursor-pointer text-base sm:text-xl md:text-2xl my-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
             GET FREE INSURANCE NOW
-          </span>
+          </a>
         </div>
       </div>
 
@@ -63,9 +63,9 @@ const Subscriptions = () => {
               )
             </li>
           </ol>
-          <span className="flex justify-center border-2 border-[#1A3967] text-base sm:text-xl md:text-2xl mt-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
+         <a href="" className="flex justify-center border-2 border-[#1A3967] hover:text-white hover:bg-gray-500 duration-500 cursor-pointer text-base sm:text-xl md:text-2xl my-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
             GET FREE INSURANCE NOW
-          </span>
+          </a>
         </div>
       </div>
 
@@ -87,9 +87,9 @@ const Subscriptions = () => {
             <li>Choose the Digital Health Plan</li>
             <li>Click on Purchase</li>
           </ol>
-          <span className="flex justify-center border-2 border-[#1A3967] text-base sm:text-xl md:text-2xl mt-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
+         <a href="" className="flex justify-center border-2 border-[#1A3967] hover:text-white hover:bg-gray-500 duration-500 cursor-pointer text-base sm:text-xl md:text-2xl my-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
             GET FREE INSURANCE NOW
-          </span>
+          </a>
         </div>
       </div>
 
@@ -110,9 +110,9 @@ const Subscriptions = () => {
             <li>Select Leadway SuperCare Health Plan</li>
             <li>Click on Next, then click on confirm</li>
           </ol>
-          <span className="flex justify-center border-2 border-[#1A3967] text-base sm:text-xl md:text-2xl mt-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
+           <a href="" className="flex justify-center border-2 border-[#1A3967] hover:text-white hover:bg-gray-500 duration-500 cursor-pointer text-base sm:text-xl md:text-2xl my-10 mx-auto py-3 sm:py-4 px-10 sm:px-16 md:px-20 rounded-xl max-w-xs sm:max-w-sm md:max-w-lg">
             GET FREE INSURANCE NOW
-          </span>
+          </a>
         </div>
       </div>
     </div>
