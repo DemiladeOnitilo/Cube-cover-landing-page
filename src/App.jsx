@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return(
-    <div className='flex flex-col gap-10'>
+    <div className='flex flex-col gap-10 px-4 lg:px-0'>
       <Navbar />
       <Home />
       <PartnerUs />

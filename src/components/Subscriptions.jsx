@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscriptions = () => {
   return (
-    <div className="px-10 max-w-5xl mx-auto">
+    <div className=" max-w-5xl mx-auto">
       {/*MTN & GLO Subscription*/}
       <div className=" text-[#1A3967]">
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-semibold mt-10 text-center px-6 underline underline-offset-5">

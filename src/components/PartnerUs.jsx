@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 
 const PartnerUs = () => {
   return (
-    <div className="px-6 lg:px-0 max-w-7xl mt-20 mx-auto text-[#1A3967]">
+    <div className=" max-w-7xl mt-20 mx-auto text-[#1A3967]">
       {/* Mission */}
       <div className="flex flex-col items-center text-center gap-6">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">

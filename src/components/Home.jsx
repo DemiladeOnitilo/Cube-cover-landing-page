@@ -69,7 +69,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="px-10 lg:px-0 max-w-7xl mx-auto">
+    <div className=" max-w-7xl mx-auto">
       {/*Hero Section*/}
       <div className="flex flex-col md:flex-row justify-between items-center px-6 gap-12">
         <div className="flex flex-col gap-6 text-center md:text-left">
@@ -170,7 +170,7 @@ const Home = () => {
             Our Products
           </h2>
         </div>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 mt-12 bg-blue-50 rounded-xl">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mt-12 bg-blue-50 rounded-xl">
           {ourProducts.map((items, index) => (
             <div
               key={index}
