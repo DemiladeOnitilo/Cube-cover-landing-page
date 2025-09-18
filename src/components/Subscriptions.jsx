@@ -72,7 +72,7 @@ const Subscriptions = () => {
           </ol>
           <div className="flex justify-center">
             <a 
-              href="https://cubecover.ai/axa/imt" 
+              href="https://cubecover.ai/en/imt" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-4 px-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center mt-8 overflow-hidden"
@@ -127,7 +127,7 @@ const Subscriptions = () => {
           </ol>
           <div className="flex justify-center">
             <a 
-              href="https://cubecover.ai/axa/imt" 
+              href="https://cubecover.ai/en/imt" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center mt-8 overflow-hidden"
@@ -175,7 +175,7 @@ const Subscriptions = () => {
           </ol>
           <div className="flex justify-center">
             <a 
-              href="https://cubecover.ai/axa/imt" 
+              href="https://cubecover.ai/en/imt" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-4 px-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center mt-8 overflow-hidden"
@@ -222,7 +222,7 @@ const Subscriptions = () => {
           </ol>
           <div className="flex justify-center">
             <a 
-              href="https://cubecover.ai/axa/imt" 
+              href="https://cubecover.ai/en/imt" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center mt-8 overflow-hidden"

@@ -228,7 +228,7 @@ const Home = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://cubecover.ai/axa/imt"
+                href="https://cubecover.ai/en/imt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative bg-white text-blue-600 hover:text-white font-bold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center whitespace-nowrap overflow-hidden"
