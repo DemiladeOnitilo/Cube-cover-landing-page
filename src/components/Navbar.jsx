@@ -3,12 +3,12 @@ import logo from "../assets/Cube-cover-logo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex items-start p-6 max-w-7xl mx-auto font-semibold relative">
+    <div className="flex items-start p-4 sm:p-6 max-w-7xl mx-auto font-semibold relative">
       <div to="/" className="flex-shrink-0">
         <img
           src={logo}
           alt="Cube Cover Logo"
-          className="h-17 w-auto object-contain"
+          className="h-12 sm:h-16 md:h-17 w-auto object-contain"
         />
       </div>
     </div>
