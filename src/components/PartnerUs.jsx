@@ -6,7 +6,7 @@ import { FaCheck, FaRocket, FaHandshake, FaBullseye } from "react-icons/fa";
 
 const PartnerUs = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6">
       {/* Hero Section */}
       <div className="relative text-center mb-20 sm:mb-32 px-4">
         {/* Background decoration */}
