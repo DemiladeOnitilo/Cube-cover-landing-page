@@ -116,7 +116,14 @@ const Subscriptions = () => {
             <li>Choose your preferred bundle</li>
             <li>Choose your preferred subscription plan (i.e. autorenewal/one-off)</li>
             <li>Receive confirmation billing message from network</li>
-            <li>Receive confirmation message from shortcode with url to access the service</li>
+            <li>
+              Receive confirmation message from shortcode with url to access the
+              service (
+              <span className="underline">
+                https://shorturl.at/mxES1
+              </span>
+              )
+            </li>
           </ol>
           <div className="flex justify-center">
             <a 
