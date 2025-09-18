@@ -241,13 +241,7 @@ const Home = () => {
                 className="group relative bg-white text-blue-600 hover:text-white font-bold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center whitespace-nowrap overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                <span className="relative z-10">Get Insured Now</span>
-              </a>
-              <a
-                href=""
-                className="border-2 border-white/50 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-2xl transition-all duration-300 text-center whitespace-nowrap"
-              >
-                Contact Sales
+                <span className="relative z-10">Get Free Insurance</span>
               </a>
             </div>
           </div>
