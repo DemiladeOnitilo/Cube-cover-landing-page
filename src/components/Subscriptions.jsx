@@ -3,7 +3,7 @@ import { FaMobileAlt, FaUsers, FaShieldAlt, FaRocket } from "react-icons/fa";
 
 const Subscriptions = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6">
       {/* Hero Section */}
       <div className="relative text-center mb-32 px-6">
         {/* Background decoration */}
