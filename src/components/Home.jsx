@@ -69,7 +69,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6">
       {/*Hero Section*/}
       <div className="relative flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 py-12 sm:py-16 md:py-24 gap-8 md:gap-12 overflow-hidden">
         {/* Background gradient overlay */}
